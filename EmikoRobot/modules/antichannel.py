@@ -4,7 +4,7 @@ from telegram.ext.filters import Filters
 from telegram import Update, message, ParseMode
 from telegram.ext import CallbackContext
 
-from EmikoRobot.modules.helper_funcs.decorators import emikocmd, emikomsg
+from EmikoRobot.modules.helper_funcs.decorators import LUNACMD, LUNAMSG
 from EmikoRobot.modules.helper_funcs.channel_mode import user_admin, AdminPerms
 from EmikoRobot.modules.sql.antichannel_sql import antichannel_status, disable_antichannel, enable_antichannel
 
